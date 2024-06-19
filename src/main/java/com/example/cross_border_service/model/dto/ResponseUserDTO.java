@@ -1,7 +1,6 @@
 package com.example.cross_border_service.model.dto;
-
-import com.inter.desafio.model.entity.UserEntity;
-import com.inter.desafio.uteis.RetornaCpfOuCnpj;
+import com.example.cross_border_service.model.entity.UserEntity;
+import com.example.cross_border_service.utils.RetornaCpfOuCnpj;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

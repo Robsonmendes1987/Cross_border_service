@@ -1,6 +1,5 @@
 package com.example.cross_border_service.model.dto;
-
-import com.inter.desafio.model.entity.UserEntity;
+import com.example.cross_border_service.model.entity.UserEntity;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

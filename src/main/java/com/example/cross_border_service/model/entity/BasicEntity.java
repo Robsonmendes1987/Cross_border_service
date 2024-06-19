@@ -12,10 +12,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import java.time.LocalDateTime;
 
 
-/**
- * Classe base para todas as entidades.
- * Inclui campos comuns como id, datas de criação e modificação, e usuários responsáveis.
- */
+
 @Getter
 @Setter
 @MappedSuperclass
