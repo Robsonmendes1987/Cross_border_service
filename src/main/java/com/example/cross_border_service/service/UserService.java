@@ -1,0 +1,19 @@
+package com.example.cross_border_service.service;
+
+import com.example.cross_border_service.model.dto.RequestUserDTO;
+import com.example.cross_border_service.model.dto.ResponseUserDTO;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public interface UserService {
+
+    List<ResponseUserDTO> getAll();
+
+    ResponseUserDTO getById(Long id);
+    List<ResponseUserDTO> getByName(String name);
+    ResponseUserDTO saveUser(RequestUserDTO user);
+    ResponseUserDTO updateUserById(Long id, RequestUserDTO request);
+    String deleteUserById(Long id);
+}
