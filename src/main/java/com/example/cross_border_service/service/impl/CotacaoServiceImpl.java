@@ -31,15 +31,12 @@ public class CotacaoServiceImpl implements CotacaoService {
 
     @Override
     public CotacaoEntity getCotacao(LocalDate date) {
-        // Ajustar data para o último dia útil, se necessário
         LocalDate consultaDate = ajustarParaUltimoDiaUtil(date);
 
-        // Buscar cotação recursivamente até encontrar uma válida
         return buscarCotacaoRecursivamente(consultaDate);
     }
 
     private CotacaoEntity buscarCotacaoRecursivamente(LocalDate date) {
-        // Verificar se a cotação já está no banco de dados
         Optional<CotacaoEntity> cotacaoOptional = cotacaoRepository.findByDataCotacao(date);
         if (cotacaoOptional.isPresent()) {
             return cotacaoOptional.get();
@@ -60,7 +57,6 @@ public class CotacaoServiceImpl implements CotacaoService {
                 Double cotacaoCompra = cotacaoData.get("cotacaoCompra").asDouble();
                 Double cotacaoVenda = cotacaoData.get("cotacaoVenda").asDouble();
 
-                // Salvar no banco de dados
                 CotacaoEntity cotacao = new CotacaoEntity();
                 cotacao.setDataCotacao(date);
                 cotacao.setCotacaoCompra(cotacaoCompra);
