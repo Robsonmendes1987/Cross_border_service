@@ -8,6 +8,7 @@ https://github.com/Robsonmendes1987/cross_border_service/tree/develop
 
 ## Para testar a API utilizando o Swagger, acesse : http://localhost:8080/swagger-ui/index.html#
 
+# Verifique a porta em que sua aplicaçao esta rodando, caso necessario altere a url do Swagger. 
 ## Tecnologias Utilizadas
 
 ## O projeto Java utiliza as seguintes tecnologias e dependências:
