@@ -20,6 +20,7 @@ import java.util.Map;
 
 @ControllerAdvice
 public class ExceptionController {
+
     @ExceptionHandler(NotFound.class)
     public ResponseEntity<StandardError> notFoundException(NotFound e, ServletRequest request) {
         StandardError error = new StandardError (
@@ -39,7 +40,6 @@ public class ExceptionController {
         );
         return ResponseEntity.status(HttpStatus.BAD_REQUEST.value()).body(error);
     }
-
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Object> handleValidationExceptions(MethodArgumentNotValidException ex, WebRequest request) {
