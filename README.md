@@ -1,4 +1,8 @@
 # Documentação da API Cros_Border_Service
+
+## Para clonar o repositório va ate :
+https://github.com/Robsonmendes1987/cross_border_service/tree/develop
+
 ## Para Rodar a aplicação execute no diretorio cross-border-service$ o comando:
 - **mvn spring-boot:run**
 
