@@ -2,8 +2,8 @@ package com.example.cross_border_service.service.impl;
 
 import com.example.cross_border_service.exception.DuplicateValue;
 import com.example.cross_border_service.exception.NotFound;
-import com.example.cross_border_service.model.dto.RequestUserDTO;
-import com.example.cross_border_service.model.dto.ResponseUserDTO;
+import com.example.cross_border_service.model.dto.user.RequestUserDTO;
+import com.example.cross_border_service.model.dto.user.ResponseUserDTO;
 import com.example.cross_border_service.model.entity.UserEntity;
 import com.example.cross_border_service.model.repository.UserRepository;
 import com.example.cross_border_service.service.UserService;

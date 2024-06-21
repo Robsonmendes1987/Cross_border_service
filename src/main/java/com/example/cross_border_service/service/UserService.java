@@ -1,7 +1,7 @@
 package com.example.cross_border_service.service;
 
-import com.example.cross_border_service.model.dto.RequestUserDTO;
-import com.example.cross_border_service.model.dto.ResponseUserDTO;
+import com.example.cross_border_service.model.dto.user.RequestUserDTO;
+import com.example.cross_border_service.model.dto.user.ResponseUserDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

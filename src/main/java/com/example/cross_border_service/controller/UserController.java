@@ -1,7 +1,7 @@
 package com.example.cross_border_service.controller;
 
-import com.example.cross_border_service.model.dto.ResponseUserDTO;
-import com.example.cross_border_service.model.dto.RequestUserDTO;
+import com.example.cross_border_service.model.dto.user.ResponseUserDTO;
+import com.example.cross_border_service.model.dto.user.RequestUserDTO;
 import com.example.cross_border_service.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

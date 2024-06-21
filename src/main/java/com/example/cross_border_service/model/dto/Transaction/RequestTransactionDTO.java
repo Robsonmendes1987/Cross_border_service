@@ -1,6 +1,6 @@
 package com.example.cross_border_service.model.dto.Transaction;
 
-//import com.example.cross_border_service.model.TipoDeMoeda;
+import com.example.cross_border_service.model.TipoDeMoeda;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

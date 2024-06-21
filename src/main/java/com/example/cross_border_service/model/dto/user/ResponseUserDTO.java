@@ -1,4 +1,4 @@
-package com.example.cross_border_service.model.dto;
+package com.example.cross_border_service.model.dto.user;
 import com.example.cross_border_service.model.entity.UserEntity;
 import com.example.cross_border_service.utils.RetornaCpfOuCnpj;
 import lombok.AllArgsConstructor;
