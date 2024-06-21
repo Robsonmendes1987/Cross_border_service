@@ -5,6 +5,8 @@ https://github.com/Robsonmendes1987/cross_border_service/tree/develop
 
 ## Para Rodar a aplicação execute no diretorio cross-border-service$ o comando:
 - **mvn spring-boot:run**
+- ## Para rodar os testes navegue pelo terminal ate o diretorio cross-border-service e execute: 
+- **mvn spring-boot:run**
 
 ## Para testar a API utilizando o Swagger, acesse : http://localhost:8080/swagger-ui/index.html#
 
