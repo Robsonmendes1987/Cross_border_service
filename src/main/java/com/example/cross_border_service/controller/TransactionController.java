@@ -27,7 +27,7 @@ public class TransactionController {
     }
 
     @GetMapping("/listar/{usuarioId}")
-    public ResponseEntity<List<ResponseTrasactionDTO>> listarTransacoesPorUsuario(@PathVariable Long usuarioId) {
+    public ResponseEntity<List<ResponseTransactionDTO>> listarTransacoesPorUsuario(@PathVariable Long usuarioId) {
         return ResponseEntity.ok().body(transactionService.listarTransacoesPorUsuario(usuarioId));
     }
 }
